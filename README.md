@@ -1,5 +1,4 @@
 # Das ist ein tolles Spring Boot Beispiel
-# yep - is doll
 
 Wird verwendet für Dev Ops Training
 - Spring Boot
@@ -7,6 +6,4 @@ Wird verwendet für Dev Ops Training
 - Git
 - Example project for CloudFoundry
 
-Demo für Git merge und push
-
-finde ich toll!!! :-)
+Demo für Git merge und push sowie build triggers
