@@ -18,6 +18,7 @@ public class User implements Serializable {
     private String city;
     private String postCode;
     private String street;
+    private String title;
 
 
     private String status;
@@ -78,10 +79,20 @@ public class User implements Serializable {
         this.street = street;
     }
 
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+
     @Override
     public String toString() {
         return "User{" +
                 "id=" + id +
+                ", title='" + title + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", city='" + city + '\'' +

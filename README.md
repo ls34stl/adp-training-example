@@ -6,4 +6,4 @@ Wird verwendet für Dev Ops Training
 - Git
 - Example project for CloudFoundry
 
-Demo für Git merge und push
+Demo für Git merge und push sowie build triggers
