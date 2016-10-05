@@ -20,8 +20,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-
-
+    <!-- dependencies section -->
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -54,8 +53,9 @@
             <artifactId>hsqldb</artifactId>
         </dependency>
     </dependencies>
+    
+    <!-- build section -->
     <build>
-        
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -65,6 +65,7 @@
         
     </build>
 
+    <!-- repos ... -->
     <repositories>
         <repository>
             <id>spring-milestone</id>
@@ -72,6 +73,7 @@
         </repository>
     </repositories>
 
+    <!-- and at least plugins -->
     <pluginRepositories>
         <pluginRepository>
             <id>spring-milestone</id>
