@@ -1,10 +1,13 @@
 package com.innoq.schulung.spring.demo.domain;
 
+import lombok.AllArgsConstructor;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.io.Serializable;
 
+@AllArgsConstructor
 @Entity
 public class User implements Serializable {
     @Id
